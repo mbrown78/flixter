@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#simple form
+gem 'simple_form'
 #devise
 gem 'devise', '>= 3.2.4'
 # bootstrap 
