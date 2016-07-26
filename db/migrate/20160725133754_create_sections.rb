@@ -6,8 +6,9 @@ class CreateSections < ActiveRecord::Migration
        
       t.timestamps
       
-      add_index :sections, :course_id
       
     end
+    
+      add_index :sections, :course_id
   end
 end
