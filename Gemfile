@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 
+#fog for carrierwave and amazon services
+gem "fog"
+#figaro
+gem "figaro"
+
 # carrierwave 
 gem 'carrierwave'
 #simple form
