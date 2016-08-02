@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#mini magick for image sizing
+gem 'mini_magick', '~> 4.3.1'
 #fog for carrierwave and amazon services
 gem "fog"
 #figaro
