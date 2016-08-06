@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#stripe for payments
+gem 'stripe'
 #carrier wave aws
 gem 'carrierwave-aws'
 #mini magick for image sizing
