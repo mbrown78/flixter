@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#ranked -model for listing lessons 
+gem 'ranked-model'
 #stripe for payments
 gem 'stripe'
 #carrier wave aws
