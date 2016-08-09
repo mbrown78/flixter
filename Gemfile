@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#jquery gem
+gem 'jquery-ui-rails'
 #ranked -model for listing lessons 
 gem 'ranked-model'
 #stripe for payments
