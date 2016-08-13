@@ -58,23 +58,27 @@
   <div id="footer">
     <div class="container">
       <div class="col-xs-12 col-sm-3">
+        <ul>
         <b>Teachers</b>
         <br />
-        <%= link_to 'Teach a course', new_instructor_course_path %>
         <br />
-        <%= link_to 'My Dashboard', dashboard_path %>
-      </div>
+        <li><%= link_to 'Teach a course', new_instructor_course_path %></li>
+        <li><%= link_to 'My Dashboard', dashboard_path %></li>
+        </ul>
+      </div>  
       <div class="col-xs-12 col-sm-3">
+        <ul>
         <b>About</b>
         <br />
-        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Careers', careers_path %>
-        <br />
-        <%= link_to 'Privacy Policy', privacy_path %>
+        <li><%= link_to 'Team', team_path %></li>
+        <li><%= link_to 'Careers', careers_path %></li>
+        <li><%= link_to 'Privacy Policy', privacy_path %></li>
+        </ul>
       </div>
       <div class="col-xs-12 col-sm-3">
         <b>Contact</b>
+        <br />
         <br />
         flixter@theflixterproject.com
         <br />

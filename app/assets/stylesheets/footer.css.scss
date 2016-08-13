@@ -1,4 +1,4 @@
-$footer-height: 100px;
+$footer-height: 300px;
 $footer-height-mobile: 275px;
 
 html,
@@ -49,11 +49,13 @@ body {
 #footer a {
   color:white;
   font-weight: 100px;
+}
+
+#footer ul li{
   border-bottom:1px solid #fff;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-
 
 .clr {
   clear:both;
