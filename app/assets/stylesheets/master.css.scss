@@ -17,7 +17,7 @@ h1 {
 
 }
 
-h2 {
+h2, h3 {
  font-family: 'Raleway', sans-serif;
 }
 
@@ -159,3 +159,8 @@ ul .header .glyphicon {
   font-size:20px;
 }
 
+/*-----------img ------------*/
+.img-responsive{
+  height: 200px;
+  width: 200px;
+}

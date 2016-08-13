@@ -40,14 +40,17 @@ h2 {
  font-family: 'Raleway', sans-serif;
 }
 
-.btn-success, .btn-primary {
+.btn-success, .btn-primary, .btn-danger {
   border-radius:0;
   background-color: #DA3323;
   border-color: #DA3323;
   font-family: 'Raleway', sans-serif;
 } 
 
-.btn-success:active, .btn-success:hover,  .btn-success:focus, .btn-primary:active, .btn-primary:hover,  .btn-primary:focus{
+.btn-success:active, .btn-success:hover,  .btn-success:focus, 
+.btn-primary:active, .btn-primary:hover,  .btn-primary:focus,
+.btn-danger:active, .btn-danger:hover,  .btn-danger:focus,
+{
   background-color: #F23827; 
   border-color: #F23827;
 }
