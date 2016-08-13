@@ -16,3 +16,61 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+a {
+    color: black ;
+    text-decoration: none;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+a:hover {
+    color: #F23827;
+    text-decoration: none;
+}
+
+h1 {
+ font-family: 'Raleway', sans-serif;
+
+}
+
+h2 {
+ font-family: 'Raleway', sans-serif;
+}
+
+.btn-success, .btn-primary {
+  border-radius:0;
+  background-color: #DA3323;
+  border-color: #DA3323;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.btn-success:active, .btn-success:hover,  .btn-success:focus, .btn-primary:active, .btn-primary:hover,  .btn-primary:focus{
+  background-color: #F23827; 
+  border-color: #F23827;
+}
+
+
+
+.navbar.navbar-inverse {
+  
+  border-radius:0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('noisy_net.png');
+}
+
+.navbar-inverse .navbar-nav > li > a {
+   content: '"\"';
+   font-family: 'Roboto Slab', serif;
+}
+
+
+a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color:#fff;
+}
