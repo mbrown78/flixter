@@ -20,8 +20,19 @@ h1 {
 
 h2, h3 {
  font-family: 'Libre Baskerville', serif;
+ font-size: 27px;
 }
 
+.list-heading {
+  margin-top: -3px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
