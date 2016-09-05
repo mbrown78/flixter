@@ -1,5 +1,5 @@
 $footer-height: 300px;
-$footer-height-mobile: 275px;
+$footer-height-mobile: 500px;
 
 html,
 body {
@@ -23,7 +23,7 @@ body {
    color:white;
    background-color: #DA3323;
    font-family: "Helvetica Neue",Helvetica;
-   padding:10px 0px;
+   padding:50px 0px;
    margin-top:30px;
    margin-bottom: 30px;
    font-weight:100;
@@ -33,6 +33,11 @@ body {
   #footer {
     height:$footer-height-mobile;
   }
+  
+  #footer .social {
+   margin-top:50px;
+  
+}
 
   #wrap {
     margin: 0 auto -$footer-height-mobile;
@@ -40,21 +45,24 @@ body {
     padding: 0 0 $footer-height-mobile;
   }
   
-  #footer .social {
-    margin-top:20px;
-  }
+#footer .social {
+  margin-top:20px;
+  
+}
 
 }
 
 #footer a {
   color:white;
   font-weight: 100px;
+  list-style-type: none;
 }
 
 #footer ul li{
   border-bottom:1px solid #fff;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 .clr {
@@ -69,3 +77,5 @@ body {
 .social a:hover {
   text-decoration:none;
 }
+
+

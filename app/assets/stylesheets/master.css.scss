@@ -9,18 +9,30 @@ font-family: 'Libre Baskerville', serif;
 
 body {
   background: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
  /* font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; */
 }
 
 h1 {
- font-family: 'Raleway', sans-serif;
+ font-family: 'Libre Baskerville', serif;
 
 }
 
 h2, h3 {
- font-family: 'Raleway', sans-serif;
+ font-family: 'Libre Baskerville', serif;
+ font-size: 27px;
 }
 
+.list-heading {
+  margin-top: -3px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
@@ -158,4 +170,3 @@ ul .header {
 ul .header .glyphicon {
   font-size:20px;
 }
-
