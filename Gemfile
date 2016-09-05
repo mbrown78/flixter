@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#rspec testing 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 #jquery gem
 gem 'jquery-ui-rails'
 #ranked -model for listing lessons 
